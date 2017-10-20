@@ -1,259 +1,212 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>DeadUseful - Tools, Code, Blog - Nailed it!</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="We develop web tools, release code and blog about it.">
-    <meta name="author" content="deaduseful">
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
 
-    <!-- Le styles -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-      .brand em {
-        color: #aa0000;
-        font-family: Georgia;
-      }
-      .brand em strong {
-        color: #4d4d4d;
-      }
-      .hero-unit {
-        background: #eee url(img/deaduseful-background.png) no-repeat 95% -5%;
-      }
-      .tools span {
-        display: block;
-        width: 260px;
-        height: 200px;
-        background: #eee;
-        margin: auto;
-        text-align: center;
-      }
-      .tools img {
-          overflow: hidden;
-          height: 150px;
-      }
-      footer {
-        clear:both;
-      }
-      footer em {
-        color: #aa0000;
-        font-family: Georgia;
-      }
-      footer em strong {
-        color: #4d4d4d;
-      }
-    </style>
-    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Dead Useful - Tools for developers.</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link href='css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+  <link href='css/main.css' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Bevan' rel='stylesheet' type='text/css'>
+  <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/vendor/jquery-1.11.2.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
 
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
-    <link rel="shortcut icon" href="ico/favicon.png">
-  </head>
-
-  <body>
-    <!--[if lt IE 7]>
-        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-    <![endif]-->
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="http://deaduseful.com/"><em><strong>dead</strong>useful</em></a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="http://deaduseful.com/blog/">Blog</a></li>
-              <li><a href="#tools">Tools</a></li>
-              <li><a href="http://github.com/deaduseful">Code</a></li>
-            </ul>
-            <ul class="nav pull-right">
-              <li><a href="http://www.twitter.com/deaduseful"><i class="icon-twitter icon-large"></i></a></li>
-              <li><a href="https://github.com/deaduseful/"><i class="icon-github icon-large"></i></a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
+<body role="document" class="">
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+        <a class="navbar-brand" href="/">DeadUseful</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav topmenu">
+          <li id="topmenu_home" class="first"><a href="/pagerank/" title=""><span class="glyphicon glyphicon-stats"></span></a></li>
+          <li id="topmenu_1"><a href="/ip/" title=""><span class="glyphicon glyphicon-globe"></span></a></li>
+          <li id="topmenu_2"><a href="/up/" title=""><span class="glyphicon glyphicon-collapse-up"></span></a></li>
+          <li id="topmenu_3"><a href="/hash/" title=""><span class="glyphicon glyphicon-lock"></span></a></li>
+          <li id="topmenu_4"><a href="/validemail/" title=""><span class="glyphicon glyphicon-send"></span></a></li>
+          <li id="topmenu_5"><a href="/dates/" title=""><span class="glyphicon glyphicon-calendar"></span></a></li>
+          <li id="topmenu_6"><a href="/browsercheck/" title=""><span class="glyphicon glyphicon-flag"></span></a></li>
+          <li id="topmenu_7"><a href="/sort/" title=""><span class="glyphicon glyphicon-sort"></span></a></li>
+          <li id="topmenu_8"><a href="/domainsearch/" title=""><span class="glyphicon glyphicon-record"></span></a></li>
+          <li id="topmenu_9"><a href="/whois/" title=""><span class="glyphicon glyphicon-search"></span></a></li>
+          <li id="topmenu_10" class="last"><a href="/start/" title=""><span class="glyphicon glyphicon-star"></span></a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </nav>
+  <style>
+    .jumbotron {
+      background: url('img/unsplash-c9e42240-large.jpg') 50%;
+      background-size: cover;
+      min-height: 600px;
+      color: white;
+      text-align: center;
+      padding-top: 200px;
+      opacity: 0.8;
+    }
+  </style>
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Tools for developers.</h1>
+      <p>
+        Helping you to build better relationships between you and the web.
+      </p>
+      <div class="col-md-12">
+        <form id="search" action="/domainsearch/">
+          <div class="col-md-10">
+            <input type="text" name="q" id="q" class="form-control input-lg" value="" placeholder="Search...">
+          </div>
+          <div class="col-md-2">
+            <input type="submit" id="submit" class="btn btn-danger btn-lg" href="/domainsearch/" value="Search &raquo;">
+          </div>
+        </form>
       </div>
     </div>
-
-    <div class="container">
-
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-        <h1>Nailed it.</h1>
-        <p>We develop web <strong>tools</strong>, release <strong>code</strong> and <strong>blog</strong> about it.</p>
-        <p><a class="btn btn-primary btn-large" href="http://deaduseful.com/blog/">Read more &raquo;</a></p>
-      </div>
-
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="span4">
-          <h2>Blog</h2>
-          <p>Here you'll find a log of our our on going web development.</p>
-          <p><a class="btn" href="http://deaduseful.com/blog/">Read the blog &raquo;</a></p>
+  </div>
+  <div class="container" role="main">
+    <div class="row featurette text-center">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- Deaduseful Homepage -->
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9135528826170086" data-ad-slot="7717623918" data-ad-format="auto"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+    <div class="row featurette">
+      <div class="container text-center">
+        <div class="tool col-md-3">
+          <a class="btn-danger circle" href="/pagerank/" role="button"><span class="glyphicon glyphicon-stats"></span></a>
+          <h2>PageRank Viewer</h2>
+          <p></p>
+          <p>A really simple way to check your Google PageRank.</p>
+          <p></p>
         </div>
-        <div class="span4">
-          <h2>Tools</h2>
-          <p>We've developed a set of tools that we that we built for ourselves, we hope you find them as useful as we do.</p>
-          <p><a class="btn" href="#tools">Use the tools &raquo;</a></p>
-       </div>
-        <div class="span4">
-          <h2>Code</h2>
-          <p>Our code base is where we release our internal code as open source. Our way of giving back.</p>
-          <p><a class="btn" href="https://github.com/deaduseful">Get the code &raquo;</a></p>
+        <!-- /.tool -->
+        <div class="tool col-md-3">
+          <a class="btn-danger circle" href="/ip/" role="button"><span class="glyphicon glyphicon-globe"></span></a>
+          <h2>Pretty IP</h2>
+          <p></p>
+          <p>A pretty "What Is My IP Address?" Lookup Tool.</p>
+          <p></p>
         </div>
+        <!-- /.tool -->
+        <div class="tool col-md-3">
+          <a class="btn-danger circle" href="/up/" role="button"><span class="glyphicon glyphicon-collapse-up"></span></a>
+          <h2>Is it up?</h2>
+          <p></p>
+          <p>Use this to check if your website is up or down.</p>
+          <p></p>
+        </div>
+        <!-- /.tool -->
+        <div class="tool col-md-3">
+          <a class="btn-danger circle" href="/hash/" role="button"><span class="glyphicon glyphicon-lock"></span></a>
+          <h2>Hash</h2>
+          <p></p>
+          <p>MD5 conversion and MD5 reverse lookup.</p>
+          <p></p>
+        </div>
+        <!-- /.tool -->
+        <div class="tool col-md-3">
+          <a class="btn-danger circle" href="/validemail/" role="button"><span class="glyphicon glyphicon-send"></span></a>
+          <h2>Valid email check</h2>
+          <p></p>
+          <p>Is it a valid email address or not?</p>
+          <p></p>
+        </div>
+        <!-- /.tool -->
+        <div class="tool col-md-3">
+          <a class="btn-danger circle" href="/dates/" role="button"><span class="glyphicon glyphicon-calendar"></span></a>
+          <h2>Dates</h2>
+          <p></p>
+          <p>Calculate days between dates or days from or to dates.</p>
+          <p></p>
+        </div>
+        <!-- /.tool -->
+        <div class="tool col-md-3">
+          <a class="btn-danger circle" href="/browsercheck/" role="button"><span class="glyphicon glyphicon-flag"></span></a>
+          <h2>Browser Check</h2>
+          <p></p>
+          <p>Answers the question: Is my browser up to date?</p>
+          <p></p>
+        </div>
+        <!-- /.tool -->
+        <div class="tool col-md-3">
+          <a class="btn-danger circle" href="/sort/" role="button"><span class="glyphicon glyphicon-sort"></span></a>
+          <h2>Sort It</h2>
+          <p></p>
+          <p>Name aside, very useful string extraction.</p>
+          <p></p>
+        </div>
+        <!-- /.tool -->
+        <div class="tool col-md-3">
+          <a class="btn-danger circle" href="/domainsearch/" role="button"><span class="glyphicon glyphicon-record"></span></a>
+          <h2>Domain Search</h2>
+          <p></p>
+          <p>Search through hundreds of popular domain extensions to find the right one for you</p>
+          <p></p>
+        </div>
+        <!-- /.tool -->
+        <div class="tool col-md-3">
+          <a class="btn-danger circle" href="/whois/" role="button"><span class="glyphicon glyphicon-search"></span></a>
+          <h2>Whois Lookup</h2>
+          <p>An easy way to look up domain name or IP address whois records.</p>
+        </div>
+        <!-- /.tool -->
+        <div class="tool col-md-3">
+          <a class="btn-danger circle" href="/start/" role="button"><span class="glyphicon glyphicon-star"></span></a>
+          <h2>Start</h2>
+          <p>LaunchDock Start Page</p>
+        </div>
+        <!-- /.tool -->
       </div>
-
-      <hr>
-
-      <div class="tools">
-        <a name="tools"></a><h2>Tools</h2>
-          <div class="row-fluid">
-            <ul class="thumbnails">
-              <li class="span3">
-                <div class="thumbnail">
-                  <span><img src="img/tools_pr.png" alt="PageRank Tool Thumbnail"></span>
-                  <div class="caption">
-                    <h3>PageRank Viewer</h3>
-                    <p>A really simple way to check your Google PageRank.</p>
-                    <p><a href="/pagerank" class="btn btn-primary">Visit</a></p>
-                  </div>
-                </div>
-              </li>
-              <li class="span3">
-                <div class="thumbnail">
-                    <span><img src="img/tools_ip.png" alt="Pretty 'What Is My IP Address?' Lookup Tool Thumbnail"></span>
-                  <div class="caption">
-                    <h3>Pretty IP</h3>
-                    <p>A pretty "What Is My IP Address?" Lookup Tool.</p>
-                    <p><a href="/ip" class="btn btn-primary">Visit</a></p>
-                  </div>
-                </div>
-              </li>
-              <li class="span3">
-                <div class="thumbnail">
-                  <span><img src="img/tools_up.png" alt="Up Thumbnail"></span>
-                  <div class="caption">
-                    <h3>Is it up?</h3>
-                    <p>Use this to check if your website is up or down.</p>
-                    <p><a href="/up" class="btn btn-primary">Visit</a></p>
-                  </div>
-                </div>
-              </li>
-              <li class="span3">
-                <div class="thumbnail">
-                  <span><img src="img/tools_hash.png" alt="Hash Thumbnail"></span>
-                  <div class="caption">
-                    <h3>Hash</h3>
-                    <p>MD5 conversion and MD5 reverse lookup.</p>
-                    <p><a href="/hash" class="btn btn-primary">Visit</a></p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <ul class="thumbnails">
-              <li class="span3">
-                <div class="thumbnail">
-                  <span><img src="img/tools_validemail.png" alt="Valid Email Thumbnail"></span>
-                  <div class="caption">
-                    <h3>Valid email checker</h3>
-                    <p>Is it a valid email address or not? Validate an email address online.</p>
-                    <p><a href="/validemail" class="btn btn-primary">Visit</a></p>
-                  </div>
-                </div>
-              </li>
-              <li class="span3">
-                <div class="thumbnail">
-                  <span><img src="img/tools_dates.png" alt="Dates Thumbnail"></span>
-                  <div class="caption">
-                    <h3>Dates</h3>
-                    <p>Calculate days between dates or days from or to dates</p>
-                    <p><a href="/dates" class="btn btn-primary">Visit</a></p>
-                  </div>
-                </div>
-              </li>
-              <li class="span3">
-                <div class="thumbnail">
-                  <span><img src="img/tools_browsercheck.png" alt="Thumbnail"></span>
-                  <div class="caption">
-                    <h3>Browser Check</h3>
-                    <p>Answers the question: Is my browser up to date?</p>
-                    <p><a href="/browsercheck" class="btn btn-primary">Visit</a></p>
-                  </div>
-                </div>
-              </li>
-              <li class="span3">
-                <div class="thumbnail">
-                  <span><img src="img/tools_sort.png" alt="Sort Tool Thumbnail"></span>
-                  <div class="caption">
-                    <h3>Sort it.</h3>
-                    <p>Name aside, very useful string extraction.</p>
-                    <p><a href="/sort" class="btn btn-primary">Visit</a></p>
-                  </div>
-                </div>
-              </li>
-              <!--
-              <li class="span3">
-                <div class="thumbnail">
-                  <span><img src="img/deaduseful-background.png" alt="Thumbnail"></span>
-                  <div class="caption">
-                    <h3>Coming soon</h3>
-                    <p>Watch this space! A new tool will be here soon...</p>
-                    <p><a href="#" class="btn btn-primary">Visit</a></p>
-                  </div>
-                </div>
-              </li>
-              -->
-            </ul>
-          </div>
-        <div class="row" style="text-align: center">
-            <script type="text/javascript"><!--
-            google_ad_client = "ca-pub-9135528826170086";
-            /* DeadUseful Leaderboard */
-            google_ad_slot = "4743031514";
-            google_ad_width = 728;
-            google_ad_height = 90;
-            //-->
-            </script>
-            <script type="text/javascript"
-            src="//pagead2.googlesyndication.com/pagead/show_ads.js">
-            </script>
+    </div>
+    <hr class="featurette-divider">
+    <footer class="footer">
+      <div class="container">
+        <div class="col-md-6 colophon">
+          &copy; <a href="https://wade.be/">James Wade</a> 2017 &middot; <a href="https://github.com/deaduseful">GitHub</a> &middot; <a href="https://twitter.com/deaduseful">Twitter</a>
+        </div>
+        <div class="col-md-6">
+          <p class="pull-right"><a href="#">^</a></p>
         </div>
       </div>
-
-      <footer>
-        <hr>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2014 <em><strong>dead</strong>useful</em>.</p>
-      </footer>
-
-    </div> <!-- /container -->
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/vendor/jquery-1.8.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    </footer>
+    <script src="js/vendor/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/plugins.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
     <script>
-        var _gaq=[['_setAccount','UA-37776183-1'],['_trackPageview']];
-        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-        s.parentNode.insertBefore(g,s)}(document,'script'));
+      (function(b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+          function() {
+            (b[l].q = b[l].q || []).push(arguments)
+          });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = '//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+      }(window, document, 'script', 'ga'));
+      ga('create', 'UA-37776183-1', 'auto');
+      ga('send', 'pageview');
     </script>
-  </body>
+</body>
+
 </html>
